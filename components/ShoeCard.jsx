@@ -11,7 +11,7 @@ const ShoeCard = ({ imageURL, bigShoeImage, setBigShoeImage }) => {
       }`}
       onClick={handleClick}
     >
-      <div className="flex justify-center items-center bg-card bg-cover bg-center sm:w-40 sm:h-40 max-sm:p-4">
+      <div className="flex justify-center items-center bg-card bg-cover bg-center rounded-xl sm:w-40 sm:h-40 max-sm:p-4">
         <Image
           src={imageURL.thumbnail}
           height={103.34}
